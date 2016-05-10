@@ -35,7 +35,7 @@ for currentID in nameArray:
 		f.close()
 		f = open(filename,"w")
 		for line in lines:
-			if line.startswith("ENST"):  #Takes only content witch starts with "ENST"
+			if line.startswith("ENST"):  #Takes only content which starts with "ENST"
 				f.write(line)
 		f.close()
 
